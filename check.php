@@ -1,5 +1,5 @@
 <?php
-    header(heasder: 'Content-Type: application/json');
+    header(header: 'Content-Type: application/json');
     require_once "Connect.php";
 
     $id_task = isset($POST['id_task']) ? $POST['id_task']: false ;
